@@ -49,3 +49,8 @@ void ClearScreen()
 		"\x1b[0;0H");	// カーソルを0,0に
 #endif
 }
+
+void Sleep_mSec(int mSec)
+{
+	Sleep(mSec);
+}
